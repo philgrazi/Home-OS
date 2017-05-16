@@ -1,9 +1,13 @@
 # Home-OS
 An example of a client / server application written in python 2.7 that can be used to automate electronics away from the server.
 The source of the libraries imported for the hardware used in this program can be found here.
+
 Pigpiod [python library]. (2014).
+
 Retrieved from http://abyz.co.uk/rpi/pigpio/index.html
+
 DHT-22 [python class]. (2014-07-11).
+
 Retrieved from http://abyz.co.uk/rpi/pigpio/examples.html.
 
 Home OS, is an application written to bring home automation to anyone with a Raspberry Pi system on a chip. The client is to be installed on any system that is able to run python and C.  The Server is specifically meant to run on a Raspberry Pi system on a chip.  The Raspberry Pi should be fitted with a DHT-22 (Digital Humidity Temperature) sensor, as well as an LED light.  Aside from those specific components, an Ethernet connection, keyboard / pointer i/o and an hdmi screen connection are essential to getting the program up and running. I will begin with a description, discuss the main features, and give a summary of how the programs function.
